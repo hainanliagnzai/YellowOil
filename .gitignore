@@ -73,3 +73,19 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ===== 美术资源规范（与美术同步） =====
+# 大体积美术源文件不进仓库（GitHub 免费只有 ~1G），美术只交付成品图片资源
+# 下面这些"源工程 / 中间文件"格式一律忽略，防止误提交撑爆仓库。
+# 注意：保留 Unity 运行时可用的图片字体格式（png/jpg/tga/ttf/svg 等）不进此列表。
+*.psd
+*.psb
+*.ai
+*.skel
+*.blend
+*.max
+*.ma
+*.mb
+*.c4d
+*.exr
+*.hdr
